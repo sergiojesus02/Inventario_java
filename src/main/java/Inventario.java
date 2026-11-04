@@ -1,6 +1,6 @@
 public class Inventario{
     public static int calcularSubtotal(int precio, int cantidad){
-        return precio * cantidad;
+        return precio * cantidad +10; // Se agrego un 10 a la fucion de la cantidad
     }
     public static void main(String[] args){
         int precio = 50;

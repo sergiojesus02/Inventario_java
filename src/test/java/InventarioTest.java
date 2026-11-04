@@ -5,6 +5,6 @@ public class InventarioTest{
     @Test
     void calcularSubtotalDeCuatroProductos() {
         int resultado = Inventario.calcularSubtotal(50, 4);
-        assertEquals(200, resultado);
+        assertEquals(250, resultado); // Se cambio el numero de 200 a 250 es un error porque espera un 200 no 250
     }
 }
